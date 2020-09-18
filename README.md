@@ -19,5 +19,8 @@
 
 ### What is Hadoop?
 - Hadoop is a distributed system
-- The data nodes and worker nodes can scale horizontally
+- The data nodes and worker nodes can scale horizontally ( The data is stored and processes run over the data nodes)
+- In Hadoop we bring the computation to where the data is stored
+
+![Hadoop Model](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/name_data_node.png?raw=true)
 
