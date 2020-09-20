@@ -60,3 +60,7 @@
     - Transformations: are basically a recipe to follow.
     - Actions: actually perform what the recipe says to do and returns something back
 - This behaviour carries over to the syntax when coding. A lot of times you will write a method call, but won’t see anything as a result until you call the action. This makes sense because with a large dataset, you don’t want to calculate all the transformations until you are sure you want to perform them
+
+### Setup Spark on Mac
+https://www.youtube.com/watch?v=_jFj30A3L3k&ab_channel=AkremEl-ghazal
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/spark_2.png?raw=true)

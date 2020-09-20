@@ -1,3 +1,4 @@
 .vagrant
 .DS_Store
-setup_material
+spark-3.0.1-bin-hadoop2.7/
+.ipynb_checkpoints/
