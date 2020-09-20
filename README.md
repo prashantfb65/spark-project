@@ -85,3 +85,10 @@ pip install -r requirements-spark.txt
 jupyter notebook
 ```
 ![Spark structure](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/spark_2.png?raw=true)
+
+### Spark MLlib
+Spark’s MLlib is mainly designed for Supervised and Unsupervised Learning tasks, with most of its algorithms falling under those two categories.
+
+Supervised learning algorithms are trained using labeled examples, such as an input where the desired output is known.
+
+Unsupervised learning is used against data that has no historical labels. 
