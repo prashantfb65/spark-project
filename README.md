@@ -56,9 +56,7 @@
 
 ![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/spark_1.png?raw=true)
 
-- RDDs are immutable, lazily evaluated, and cacheable
-There are two types of Spark operations:
+- RDDs are immutable, lazily evaluated, and cacheable. There are two types of Spark operations:
     - Transformations: are basically a recipe to follow.
     - Actions: actually perform what the recipe says to do and returns something back
-
 - This behaviour carries over to the syntax when coding. A lot of times you will write a method call, but won’t see anything as a result until you call the action. This makes sense because with a large dataset, you don’t want to calculate all the transformations until you are sure you want to perform them
