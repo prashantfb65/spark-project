@@ -34,3 +34,9 @@
 - Each of these blocks is replocated 3 times
 - The blocks are distributed in a way to support fault tolerance
 -  MapReduce is a way of splitting a computation task to a distributed set of files
+- MapReduce consists of a Job Tracker and multiple task trackers
+- The task trackers allocate CPU and memory for the tasks and monitor the tasks on the worker nodes
+
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/name_node.png?raw=true)
+
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/task_node.png?raw=true)
