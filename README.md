@@ -38,5 +38,6 @@
 - MapReduce consists of a Job Tracker and multiple task trackers
 ![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/task_node.png?raw=true)
 - The task trackers allocate CPU and memory for the tasks and monitor the tasks on the worker nodes
+- The Job tracker sends the code to run on the task trackers
 
 
