@@ -47,4 +47,13 @@
     - MapReduce writes mosr data to disk after every map and reduce operation
     - Spark keeps most of the data in memory after each transformation
     - Spark can spill over to disk if the memory is filled.
+- At the coore of the Spark is the idea of a Resilient Distributed Dataset (RDD)
+- RDD has 4 main features:
+    - Distributed Collection of Data
+    - Fault tolerant
+    - Parallel operation - partioned 
+    - Ability to use many data sources
 
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/spark_1.png?raw=true)
+
+-
