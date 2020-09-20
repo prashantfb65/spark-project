@@ -43,5 +43,8 @@
 ### Spark
 - We can think of Spark as a flexible alternative of MapReduce. 
 - MapReduce requires files to be stored in HDFS, Spark doesn't
-- Spark can also perform operations up to 100% faster than MapReduce
+- Spark can also perform operations up to 100% faster than MapReduce. How does it do it though ?
+    - MapReduce writes mosr data to disk after every map and reduce operation
+    - Spark keeps most of the data in memory after each transformation
+    - Spark can spill over to disk if the memory is filled.
 
