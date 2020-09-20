@@ -61,6 +61,27 @@
     - Actions: actually perform what the recipe says to do and returns something back
 - This behaviour carries over to the syntax when coding. A lot of times you will write a method call, but won’t see anything as a result until you call the action. This makes sense because with a large dataset, you don’t want to calculate all the transformations until you are sure you want to perform them
 
-### Setup Spark on Mac
-https://www.youtube.com/watch?v=_jFj30A3L3k&ab_channel=AkremEl-ghazal
-![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/spark_2.png?raw=true)
+### Setup Spark
+1. Install Java
+2. Install Python
+3. Install Scala
+4. Set environment variables
+```bash
+# Settings for PySpark
+export SPARK_HOME='{path where spark package is downloaded}/spark-3.0.1-bin-hadoop2.7'
+export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+export PYSPARK_DRIVER_PYTHON="jupyter"
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+export PYSPARK_PYTHON=python3
+export PATH=$SPARK_HOME:$PATH:~/.local/bin:$JAVA_HOME/bin:$JAVA_HOME/jre/bin
+```
+5. Activate Python virtual environment
+```bash
+. ./setup-env.sh
+pip install -r requirements-spark.txt
+```
+6. Start Jupyter notebook
+```bash
+jupyter notebook
+```
+![Spark structure](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/spark_2.png?raw=true)
