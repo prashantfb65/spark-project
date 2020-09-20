@@ -15,7 +15,7 @@
 - Ability to store Petabytes of data in a single cluster
 - Hadoop was invented at Yahoo, and inspired by Google file system and Google's MapReduce papers
 
-![Hadoop Ecosystem](https://github.com/prashantfb65/spark-project/blob/[branch]/images/hdp_eco.png?raw=true)
+![Hadoop Ecosystem](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/hdp_eco.png?raw=true)
 
 ### What is Hadoop?
 - Hadoop is a distributed system
@@ -25,18 +25,18 @@
 - There is a standby namenode and standby yarn resource manager in case the the main ones fails.
 - Hadoop will automatically recover from a node failure. This means that code within the application possibly gets executed twice. Developers will need to handle that.
 
-![Hadoop Model](https://github.com/prashantfb65/spark-project/blob/[branch]/images/name_data_node.png?raw=true)
+![Hadoop Model](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/name_data_node.png?raw=true)
 
-![Hadoop Distributions](https://github.com/prashantfb65/spark-project/blob/[branch]/images/distributions.png?raw=true)
+![Hadoop Distributions](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/distributions.png?raw=true)
 
 ### HDFS and MapReduce
 - HDFS will use blocks of data with a size of 128 MB by default
 - Each of these blocks is replocated 3 times
 - The blocks are distributed in a way to support fault tolerance
 -  MapReduce is a way of splitting a computation task to a distributed set of files
-![MapReduce](https://github.com/prashantfb65/spark-project/blob/[branch]/images/name_node.png?raw=true)
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/name_node.png?raw=true)
 - MapReduce consists of a Job Tracker and multiple task trackers
-![MapReduce](https://github.com/prashantfb65/spark-project/blob/[branch]/images/task_node.png?raw=true)
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/task_node.png?raw=true)
 - The task trackers allocate CPU and memory for the tasks and monitor the tasks on the worker nodes
 - The Job tracker sends the code to run on the task trackers
 
