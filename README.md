@@ -41,6 +41,7 @@
 - The Job tracker sends the code to run on the task trackers
 
 ### Spark
-We can think of Spark as a flexible alternative of MapReduce. 
-
+- We can think of Spark as a flexible alternative of MapReduce. 
+- MapReduce requires files to be stored in HDFS, Spark doesn't
+- Spark can also perform operations up to 100% faster than MapReduce
 
