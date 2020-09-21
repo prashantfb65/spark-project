@@ -28,7 +28,9 @@ nbconvert==6.0.4
 nbformat==5.0.7
 nest-asyncio==1.4.0
 notebook==6.1.4
+numpy==1.19.2
 packaging==20.4
+pandas==1.1.2
 pandocfilters==1.4.2
 parso==0.7.1
 pexpect==4.8.0
@@ -43,6 +45,7 @@ pyparsing==2.4.7
 pyrsistent==0.17.3
 pyspark==3.0.1
 python-dateutil==2.8.1
+pytz==2020.1
 pyzmq==19.0.2
 qtconsole==4.7.7
 QtPy==1.9.0
