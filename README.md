@@ -88,7 +88,9 @@ jupyter notebook
 
 ### Spark MLlib
 Spark’s MLlib is mainly designed for Supervised and Unsupervised Learning tasks, with most of its algorithms falling under those two categories.
+1. Supervised learning algorithms are trained using labeled examples, such as an input where the desired output is known.
+2. Unsupervised learning is used against data that has no historical labels. 
+One of the main “quirks” of using MLlib is that you need to format your data so that eventually  it just has one or two columns:
+- Features, Labels (Supervised)
+- Features (Unsupervised)
 
-Supervised learning algorithms are trained using labeled examples, such as an input where the desired output is known.
-
-Unsupervised learning is used against data that has no historical labels. 
