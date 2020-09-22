@@ -94,3 +94,11 @@ One of the main “quirks” of using MLlib is that you need to format your data
 - Features, Labels (Supervised)
 - Features (Unsupervised)
 
+### Confusion Matrix
+
+![Confusion Matrix](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/cm_1.png?raw=true)
+
+![Confusion Matrix](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/cm_2.png?raw=true)
+
+
+
