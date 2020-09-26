@@ -1,6 +1,6 @@
 # Hadoop Ecosystem
 
-[[_TOC_]]
+<!-- [[_TOC_]] -->
 
 ## Big Data
 3V's of big data
@@ -109,3 +109,25 @@ One of the main “quirks” of using MLlib is that you need to format your data
 4. TF-IDF
 
 ![TF-IDF](https://github.com/prashantfb65/spark-project/blob/master/images/tf-idf.png?raw=true)
+
+### Spark Streaming
+Spark Streaming is an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of live data streams. 
+
+Data can be ingested from many sources like Kafka, Flume, Kinesis, or TCP sockets, and can be processed using complex algorithms expressed with high-level functions like map, reduce, join and window.
+
+![Spark Streaming](https://github.com/prashantfb65/spark-project/blob/master/images/spark-streaming.png?raw=true)
+
+Internally, Spark Streaming receives live input data streams and divides the data into batches, which are then processed by the Spark engine to generate the final stream of results in batches.
+
+![Spark Streaming processing](https://github.com/prashantfb65/spark-project/blob/master/images/spark-streaming2.png?raw=true)
+
+The steps for streaming are:
+1. Create a SparkContext
+2. Create a StreamingContext
+3. Create a Socket Text Stream
+4. Read in the lines as a “DStream”
+
+The steps for working with the data:
+1. Split the input line into a list of words
+2. Map each word to a tuple: (word,1)
+3. Then group (reduce)  the tuples by the word (key) and sum up the second argument (the number one)
