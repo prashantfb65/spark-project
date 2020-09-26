@@ -15,7 +15,7 @@
 - Ability to store Petabytes of data in a single cluster
 - Hadoop was invented at Yahoo, and inspired by Google file system and Google's MapReduce papers
 
-![Hadoop Ecosystem](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/hdp_eco.png?raw=true)
+![Hadoop Ecosystem](https://github.com/prashantfb65/spark-project/blob/master/images/hdp_eco.png?raw=true)
 
 ### What is Hadoop?
 - Hadoop is a distributed system
@@ -25,18 +25,18 @@
 - There is a standby namenode and standby yarn resource manager in case the the main ones fails.
 - Hadoop will automatically recover from a node failure. This means that code within the application possibly gets executed twice. Developers will need to handle that.
 
-![Hadoop Model](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/name_data_node.png?raw=true)
+![Hadoop Model](https://github.com/prashantfb65/spark-project/blob/master/images/name_data_node.png?raw=true)
 
-![Hadoop Distributions](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/distributions.png?raw=true)
+![Hadoop Distributions](https://github.com/prashantfb65/spark-project/blob/master/images/distributions.png?raw=true)
 
 ### HDFS and MapReduce
 - HDFS will use blocks of data with a size of 128 MB by default
 - Each of these blocks is replocated 3 times
 - The blocks are distributed in a way to support fault tolerance
 -  MapReduce is a way of splitting a computation task to a distributed set of files
-![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/name_node.png?raw=true)
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/master/images/name_node.png?raw=true)
 - MapReduce consists of a Job Tracker and multiple task trackers
-![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/task_node.png?raw=true)
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/master/images/task_node.png?raw=true)
 - The task trackers allocate CPU and memory for the tasks and monitor the tasks on the worker nodes
 - The Job tracker sends the code to run on the task trackers
 
@@ -54,7 +54,7 @@
     - Parallel operation - partioned 
     - Ability to use many data sources
 
-![MapReduce](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/spark_1.png?raw=true)
+![MapReduce](https://github.com/prashantfb65/spark-project/blob/master/images/spark_1.png?raw=true)
 
 - RDDs are immutable, lazily evaluated, and cacheable. There are two types of Spark operations:
     - Transformations: are basically a recipe to follow.
@@ -84,7 +84,7 @@ pip install -r requirements-spark.txt
 ```bash
 jupyter notebook
 ```
-![Spark structure](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/spark_2.png?raw=true)
+![Spark structure](https://github.com/prashantfb65/spark-project/blob/master/images/spark_2.png?raw=true)
 
 ### Spark MLlib
 Spark’s MLlib is mainly designed for Supervised and Unsupervised Learning tasks, with most of its algorithms falling under those two categories.
@@ -96,9 +96,16 @@ One of the main “quirks” of using MLlib is that you need to format your data
 
 ### Confusion Matrix
 
-![Confusion Matrix](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/cm_1.png?raw=true)
+![Confusion Matrix](https://github.com/prashantfb65/spark-project/blob/master/images/cm_1.png?raw=true)
 
-![Confusion Matrix](https://github.com/prashantfb65/spark-project/blob/implementation_zero/images/cm_2.png?raw=true)
+![Confusion Matrix](https://github.com/prashantfb65/spark-project/blob/master/images/cm_2.png?raw=true)
 
+### Natural Language processing
 
+1. Tokenization
+2. Stop world removal
+3. Stemming and Lemmatization
+3. Count vectorization - BOW
+4. TF-IDF
 
+![TF-IDF](https://github.com/prashantfb65/spark-project/blob/master/images/tf-idf.png?raw=true)
