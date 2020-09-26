@@ -100,6 +100,12 @@ One of the main “quirks” of using MLlib is that you need to format your data
 
 ![Confusion Matrix](https://github.com/prashantfb65/spark-project/blob/master/images/cm_2.png?raw=true)
 
-### TF-IDF matrix for NLP
+### Natural Language processing
 
-![TF-IDF](https://github.com/prashantfb65/spark-project/blob/master/images/cm_1.png?raw=true)
+1. Tokenization
+2. Stop world removal
+3. Stemming and Lemmatization
+3. Count vectorization - BOW
+4. TF-IDF
+
+![TF-IDF](https://github.com/prashantfb65/spark-project/blob/master/images/tf-idf.png?raw=true)
