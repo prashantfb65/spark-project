@@ -131,3 +131,8 @@ The steps for working with the data:
 1. Split the input line into a list of words
 2. Map each word to a tuple: (word,1)
 3. Then group (reduce)  the tuples by the word (key) and sum up the second argument (the number one)
+
+Command on the terminal
+```bash
+nc -lk 9999
+```
